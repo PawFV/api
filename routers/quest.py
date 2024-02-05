@@ -22,4 +22,4 @@ async def get_quests(params: GetQuests):
 
   quests_dict = [quest.__dict__ for quest in quests]
 
-  return quests_dict
+  return quests_dictx
